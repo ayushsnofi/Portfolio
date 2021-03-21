@@ -1,0 +1,9 @@
+/* // Custom.scss */
+/* // Option A: Include all of Bootstrap */
+
+@import "../js/node_modules/bootstrap/css/";
+
+/* // Add custom code after this */
+.container-fluid{
+    color: $red-600;
+}

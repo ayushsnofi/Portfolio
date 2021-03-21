@@ -1,0 +1,547 @@
+
+@media(max-width:576px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        /* box-sizing: border-box; */
+    }
+    
+    .intropara{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+        
+        
+        
+    }
+    .intro{
+        margin: 0px;
+        height: 112vh;
+        /* opacity: 0.4; */
+        width: 100%;
+        background: cover;
+    }
+    .logo{
+        display: block;
+        padding: 50px;
+        margin: 0 auto ;
+    }
+    .imglogo2{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 34px;
+        
+    }
+    .container-fluid{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        
+        padding: 0;
+        /* z-index: -1; */
+    }
+    .Abtsection{
+        margin: 0px  0px !important;
+        padding: 0px 0px !important;
+        height: 100vh;
+        /* border-bottom: 7px solid black; */
+    }
+    .Abtsection h2{
+        font-family: 'Redressed', cursive;
+        font-weight: 500;
+        font-size: 3rem;
+        color: burlywood;
+    }
+    .Abtsection p{
+        font-family: 'Lobster', cursive;
+        padding: 8px 0px;
+        font-size: 1rem;
+        font-weight: 300;
+        /* color: rgb(41, 13, 13); */
+    } 
+    .mywork{
+        background-image: linear-gradient(#dc3545,rgb(172, 115, 115)) ;
+        justify-content: center;
+        align-items: center;
+        height: 125vh;
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    
+    .myworkk p{
+        /* flex-direction: column; */
+        font-size: 40px;
+        text-align: center;
+        
+        
+    }
+    
+    #carouselExampleCaptions{
+        width: 18rem;
+        
+    }
+    .cardbg{
+        background-image: linear-gradient(rgb(172, 115, 115),rgb(73, 65, 116));
+        border-bottom: 7px solid black;
+    }
+    .cardbg p{
+        font-family:'Lobster', cursive; font-size: 3rem; color: rgb(191, 146, 197); text-align: center; padding: 40px; display: block; padding-top: 60vh;
+    }
+    .cardbg2{
+        padding: 90px 0px;
+        font-size: 4px;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .cardbg2 p{
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+ 
+    .social img{
+        height: 50px;
+        width: auto;
+        /* border-radius: 10px; */
+        display:flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:  100px 50px;
+        /* row-gap:30px ; */
+    
+    }
+   
+}
+@media( min-width:580px) and (max-width:700px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        /* overflow-x: hidden; */
+        /* box-sizing: border-box; */
+    }
+    
+    .intropara {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+    .intro{
+        margin: 0px 0px;
+        height: 150vh;
+        /* opacity: 0.4; */
+        width: 100%;
+        background: cover;
+        z-index: -1;
+    }
+    .logo{
+        /* height: 10vh;
+        width: 10vh; */
+        display: block;
+        /* padding: 50px; */
+        margin: 0 auto ;
+    }
+    .imglogo2{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 34px;
+        
+    }
+    .container-fluid{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        
+        padding: 0;
+        /* z-index: -1; */
+    }
+    .Abtsection{
+        margin: 0px  0px !important;
+        padding: 0px 0px !important;
+        height: 100vh;
+        /* border-bottom: 7px solid black; */
+    }
+    .Abtsection h2{
+        font-family: 'Redressed', cursive;
+        font-weight: 500;
+        font-size: 3rem;
+        color: burlywood;
+    }
+    .Abtsection p{
+        font-family: 'Lobster', cursive;
+        font-size: 1rem;
+        font-weight: 300;
+        /* color: rgb(41, 13, 13); */
+    } 
+    .mywork{
+        background-image: linear-gradient(#dc3545,rgb(172, 115, 115)) ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    
+    .myworkk p{
+        /* flex-direction: column; */
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    
+    #carouselExampleCaptions{
+        width: 18rem;
+        /* height: 5rem; */
+        /* box-sizing: initial; */
+    }
+    .cardbg{
+        background-image: linear-gradient(rgb(172, 115, 115),rgb(73, 65, 116));
+        border-bottom: 7px solid black;
+    }
+    .cardbg p{
+        font-family:'Lobster', cursive; font-size: 3rem; color: rgb(191, 146, 197); text-align: center; padding: 40px; display: block; padding-top: 60vh;
+    }
+    .cardbg2{
+        padding: 10px 0px;
+        font-size: 4px;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction:column;
+        row-gap: 1rem;
+        /* justify-content: center; */
+        align-items: center;
+        
+    }
+    .cardbg2 p{
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+ 
+    .social img{
+        height: 50px;
+        width: auto;
+        /* border-radius: 10px; */
+        display:flexbox;
+        flex-direction:row ;
+        justify-content: center;
+        align-items: center;
+        margin:  15rem 70px;
+        /* row-gap:30px ; */
+    
+    }
+     
+} 
+
+
+
+
+@media( min-width:700px) and(max-width:1000px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        /* overflow-x: hidden; */
+        /* box-sizing: border-box; */
+    }
+    
+    .intropara {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+    .intro{
+        margin: 0px 0px;
+        height: 150vh;
+        /* opacity: 0.4; */
+        width: 100%;
+        background: cover;
+        z-index: -1;
+    }
+    .logo{
+        /* height: 10vh;
+        width: 10vh; */
+        display: block;
+        /* padding: 50px; */
+        margin: 0 auto ;
+    }
+    .imglogo2{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 34px;
+        
+    }
+    .container-fluid{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        
+        padding: 0;
+        /* z-index: -1; */
+    }
+    .Abtsection{
+        margin: 0px  0px !important;
+        padding: 0px 0px !important;
+        height: 100vh;
+        /* border-bottom: 7px solid black; */
+    }
+    .Abtsection h2{
+        font-family: 'Redressed', cursive;
+        font-weight: 500;
+        font-size: 3.5rem;
+        color: burlywood;
+    }
+    .Abtsection p{
+        font-family: 'Lobster', cursive;
+        font-size: 1.5rem;
+        font-weight: 300;
+        /* color: rgb(41, 13, 13); */
+    } 
+    .mywork{
+        background-image: linear-gradient(#dc3545,rgb(172, 115, 115)) ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    
+    .myworkk p{
+        /* flex-direction: column; */
+        font-size: 20px;
+        padding: 0px 0px;
+        text-align: center;
+
+        
+    }
+    
+    #carouselExampleCaptions{
+        width: 30rem;
+        padding-right: 20%;
+        /* height: 5rem; */
+        /* box-sizing: initial; */
+    }
+    .cardbg{
+        background-image: linear-gradient(rgb(172, 115, 115),rgb(73, 65, 116));
+        border-bottom: 7px solid black;
+    }
+    .cardbg p{
+        font-family:'Lobster', cursive; font-size: 3rem; color: rgb(191, 146, 197); text-align: center; padding: 40px; display: block; padding-top: 60vh;
+    }
+    .cardbg2{
+        padding: 10px 0px;
+        font-size: 4px;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction:column;
+        row-gap: 1rem;
+        /* justify-content: center; */
+        align-items: center;
+        
+    }
+    .cardbg2 p{
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+ 
+    .social img{
+        height: 50px;
+        width: auto;
+        /* border-radius: 10px; */
+        display:flexbox;
+        flex-direction:row ;
+        justify-content: center;
+        align-items: center;
+        margin:  15rem 70px;
+        /* row-gap:30px ; */
+    
+    }
+     
+} 
+
+@media( min-width:1000px) and (max-width:1440px) {
+
+    .intro{
+        margin: 0px 0px;
+        height: 150vh;
+        /* opacity: 0.4; */
+        width: 100%;
+        background: cover;
+        z-index: -1;
+    }
+    .intropara {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+.cardbg2{
+    padding: 10px 0px;
+    font-size: 4px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction:row;
+    column-gap: 3rem;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+    
+}
+@media( min-width:1000px) and (max-width:1440px){
+    *{
+        /* width: 100%;
+        height: 100%; */
+        /* overflow-x: hidden; */
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .intropara{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 7rem;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+        
+    
+    
+    }
+    .intro{
+        margin: 0px;
+        height: 112vh;
+        /* opacity: 0.4; */
+        width: 100%;
+        background: cover;
+    }
+    .logo{
+        display: block;
+        padding: 50px;
+        margin: 0 auto ;
+    }
+    .imglogo2{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 34px;
+        
+    }
+    .container-fluid{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        
+        padding: 0;
+        /* z-index: -1; */
+    }
+    .navbar{
+        margin: 0px 0px;
+        /* color: rgb(26, 12, 12) !important; */
+        /* font-size: 2 rem !important; */
+    
+    }
+    .Abtsection{
+        margin: 0px  0px !important;
+        padding: 0px 0px !important;
+        height: 100vh;
+        /* border-bottom: 7px solid black; */
+    }
+    .Abtsection h2{
+        font-family: 'Redressed', cursive;
+        font-weight: 900;
+        font-size: 5rem;
+        color: burlywood;
+    }
+    .Abtsection p{
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        font-weight: 500;
+        /* color: rgb(41, 13, 13); */
+    } 
+    .mywork{
+        background-image: linear-gradient(#dc3545,rgb(172, 115, 115)) ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    
+    .myworkk {
+        /* flex-direction: column; */
+        display:block;
+        margin:auto;
+        margin-bottom: 50px;
+    
+        padding: 20px;
+        height: 70vh;
+        width: 90vh;
+        
+    }
+    .mywork p{
+        font-family:'Lobster', cursive; font-size: 20vh; color: rgb(191, 146, 197); text-align: center; padding: 40px; display: block;
+    }
+    .myworkk p{
+        font-family:'Lobster', cursive; font-size: 1rem; color: rgb(255, 255, 255); 
+        padding: 0px;
+    
+    }
+    .cardbg p{
+        font-family:'Lobster', cursive; font-size: 20vh; color: rgb(191, 146, 197); text-align: center; padding: 40px; display: block; padding-top:50vh;
+    }
+    
+    .cardbg{
+        background-image: linear-gradient(rgb(172, 115, 115),rgb(73, 65, 116));
+        border-bottom: 7px solid black;
+        
+    }
+    .cardbg2{
+        padding: 20vh 0px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 40vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .cardbg2 p{
+        font-size: 1.5rem;
+        padding: 10px 0px;
+        
+    }
+    
+    .card{
+        border-radius: 34px;
+        margin: 0 100px;
+    }
+    
+    .social img{
+        height: 100px;
+        width: auto;
+        /* border-radius: 10px; */
+        display:inline-block;
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        margin: 50vh 20vh;
+        /* row-gap:30px ; */
+    
+    }
+    
+}
