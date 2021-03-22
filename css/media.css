@@ -141,6 +141,7 @@
         
     }
     .intro{
+        background-image:linear-gradient(to top left white,red);
         margin: 0px 0px;
         height: 150vh;
         /* opacity: 0.4; */
@@ -266,6 +267,7 @@
         
     }
     .intro{
+        background-image:linear-gradient(to top left white,red);
         margin: 0px 0px;
         height: 150vh;
         /* opacity: 0.4; */
@@ -376,6 +378,7 @@
 @media( min-width:1000px) and (max-width:1440px) {
 
     .intro{
+        background-image:linear-gradient(to top left white,red);
         margin: 0px 0px;
         height: 150vh;
         /* opacity: 0.4; */
@@ -407,6 +410,7 @@
 }
 @media( min-width:1000px) and (max-width:1440px){
     *{
+       
         /* width: 100%;
         height: 100%; */
         /* overflow-x: hidden; */
@@ -428,6 +432,7 @@
     
     }
     .intro{
+        background-image:linear-gradient(to top left white,red);
         margin: 0px;
         height: 112vh;
         /* opacity: 0.4; */
