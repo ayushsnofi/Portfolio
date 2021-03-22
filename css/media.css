@@ -21,6 +21,7 @@
         
     }
     .intro{
+        background-image:linear-gradient(to top left white,red);
         margin: 0px;
         height: 112vh;
         /* opacity: 0.4; */
